@@ -6,7 +6,7 @@
     --color: #0ef;
 }
 
-{
+* {
   margin:0;
   padding: 0;
   box-sizing: border-box;
@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: var(--bg-color);
+    background: var(--color);
 }
 
 #toggle-btn.icon, #toggle-btn-register.icon  {
@@ -64,7 +64,7 @@ body {
 .wrapper {
   position: relative;
   width: 350px;
-  height: 450px;
+  height: 520px;
   background: transparent;
   border: 2px solid var(--border-color);
   border-radius: 50px 0px;
@@ -107,7 +107,7 @@ body {
   height: 100%;
   background: transparent;
   backdrop-filter: blur(20px);
-  color: #162938
+  color: #162938;
   padding: 0px;
 }
 
@@ -219,7 +219,7 @@ body {
 }
 
 .remember-forgot label input {
-  accent-color: 162938;
+  accent-color: #162938;
   margin-right: 3px;
 }
 
